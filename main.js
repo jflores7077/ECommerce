@@ -645,7 +645,7 @@ function ready(){
 
 	});
 
-
+	
 
 	$('#cart_current').css('width',$('#cart').css('width'))
 	$('#cart_item').css('width',$('#cart').css('width'))
@@ -655,6 +655,24 @@ function ready(){
 	var cartTop = $('#cartBody').offset().top;
 	var cartLeft = document.getElementById('cart').offsetLeft
 	var cartWidth = document.getElementById('cart').offsetWidth
+
+	window.onresize = function() {
+		cartTop = $('#cartBody').offset().top;
+		cartLeft = document.getElementById('cart').offsetLeft
+		cartWidth = document.getElementById('cart').offsetWidth
+		$('#cart_current').css('width',$('#cart').css('width'))
+		$('#cart_item').css('width',$('#cart').css('width'))
+
+		$('#cartBody div').css('left','-100px')
+		for(var l = 0;l<document.getElementsByClassName('boxItems').length;l++){
+			if(document.getElementsByClassName('boxItems')[l].id==='next'){
+				console.log(document.getElementsByClassName('boxItems')[l].offsetWidth)
+				document.getElementsByClassName('boxItems')[l].style.left = ((parseInt(body.offsetWidth)-parseInt(document.getElementById('cart').offsetWidth))-document.getElementsByClassName('boxItems')[l].offsetWidth)+'px'
+			}
+			console.log(l)
+		}	
+		console.log(2)
+	};
 	$(window).scroll(function() {                  
 
 	    var currentScroll = $(window).scrollTop(); 
@@ -686,6 +704,9 @@ function ready(){
 $('body div').ready(function(){
 	$('#load_div').attr('style','display:none')
 })
+
+
+
 window.onload = ready;
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
