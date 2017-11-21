@@ -84,7 +84,7 @@ var items = {
 	"DogFood":{
 		'Name': 'Bag of Dog Food',
 
-		'pic':'http://cdn.skim.gs/image/upload/v1456338791/msi/isolated-dog-food_x0bdi2.jpg',
+		'pic':'https://img.chewy.com/is/catalog/48934_PT2._AC_SL1500_V1476358651_.jpg',
 
 		'price':{ 'whole':60, 'retail':80 },
 
@@ -176,7 +176,7 @@ var items = {
 	"Donuts":{
 		'Name': '12 Donuts',
 
-		'pic':'http://cms.ipressroom.com.s3.amazonaws.com/285/files/201611/585aa6612cfac2064061567f_Donut+Post+4/Donut+Post+4_s.jpg',
+		'pic':'https://img.grouponcdn.com/deal/56NKzQvb681nF24byYeP/9p-2048x1242/v1/c700x420.jpg',
 
 		'price':{ 'whole':5, 'retail':12 },
 
@@ -206,7 +206,7 @@ var items = {
 	" Lime":{
 		'Name': '12 Fresh Limes',
 
-		'pic':'http://www.georgeperry.co.uk/images/C/GP_79432652_GP_XXL.jpg',
+		'pic':'https://paradisenursery.com/wp-content/uploads/2014/04/Persian-lime.jpg',
 
 		'price':{ 'whole':5, 'retail':15 },
 
@@ -251,7 +251,7 @@ var items = {
 	"Carrots":{
 		'Name': '15 Large Carrots',
 
-		'pic':'http://media.mercola.com/assets/images/foodfacts/carrot-nutrition-facts.jpg',
+		'pic':'https://www.netmascots.com/wp-content/uploads/2016/05/Fact-About-Carrots.jpg',
 
 		'price':{ 'whole':5, 'retail':15 },
 
@@ -296,7 +296,7 @@ var items = {
 	"SweetPotato":{
 		'Name': '5 large SweetPotato',
 
-		'pic':'http://media.dish.allrecipes.com/wp-content/uploads/2016/08/Sweet-potatoes-stock-image_resized.jpg',
+		'pic':'https://img.purch.com/rc/696x392/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA2Ni83NTAvb3JpZ2luYWwvc3dlZXQtcG90YXRvZXMuanBn',
 
 		'price':{ 'whole':15, 'retail':35 },
 
@@ -326,7 +326,7 @@ var items = {
 	"Pizza":{
 		'Name': 'large Pizza',
 
-		'pic':'http://www.dahlssunrisedairy.com/wp-content/uploads/2016/09/pizza-4meat.jpg',
+		'pic':'https://assets3.thrillist.com/v1/image/1891930/size/tmg-article_default_mobile.jpg',
 
 		'price':{ 'whole':2, 'retail':10.99 },
 
@@ -386,7 +386,7 @@ var items = {
 	"Milk":{
 		'Name': 'Gallon Of Milk',
 
-		'pic':'http://i.ndtvimg.com/i/2016-08/milk_625x350_51471862335.jpg',
+		'pic':'https://www.drupepower.com/blog/wp-content/uploads/2016/09/right-milk.jpg',
 
 		'price':{ 'whole':5, 'retail':12.99 },
 
